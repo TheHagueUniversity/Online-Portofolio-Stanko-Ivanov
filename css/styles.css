@@ -1,23 +1,23 @@
+
+
+.head{
+	text-align: center;
+	background-color:#ffffff;
+}
+
 body {
 	background-color: #EAEDED;
+
 }
-h1{
+
+.containermain{
 	text-align: center;
-	background-color: #ffffff;
-}
-h2{
-	text-align:center;
-	background-color: #ffffff;
+	background-color: #EAEDED;
+	border:solid black;
+
 }
 
 .container{
-	padding:40px;
-	margin:15px;
-	background-color:black;
-	color:white;
-
-}
-/*.container2{
 	padding:40px;
 	margin:15px;
 	background-color:black;
