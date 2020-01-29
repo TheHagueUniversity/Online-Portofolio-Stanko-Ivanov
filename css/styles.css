@@ -8,7 +8,7 @@
 body {
 	background-color: #BEBEBE;
 	font-family: "work Sans", sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 
 }
 
@@ -27,19 +27,34 @@ body {
 
 }
 
+header{
+	background-color:#027B93;
+}
+
 .navbar{
-	width: 80%
+	width: 60%
 	margin:0 auto;
 }
 
 nav ul{
 	margin: 0;
-	padding:0;
+	padding:10;
 	list-style: none;
 }
 
 nav li{
 	display: inline-block;
-	margin-left: 330px;
-	padding-top: 25px;
+	margin-left: 250px;
+	padding-top: 10px;
+	position: relative;
+}
+
+nav a{
+	color:#252525;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:red;
 }
