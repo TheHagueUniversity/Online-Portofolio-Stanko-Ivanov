@@ -1,0 +1,26 @@
+body {
+	background-color: #EAEDED;
+}
+h1{
+	text-align: center;
+	background-color: #ffffff;
+}
+h2{
+	text-align:center;
+	background-color: #ffffff;
+}
+
+.container{
+	padding:40px;
+	margin:15px;
+	background-color:black;
+	color:white;
+
+}
+/*.container2{
+	padding:40px;
+	margin:15px;
+	background-color:black;
+	color:white;
+
+}
