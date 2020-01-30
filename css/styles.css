@@ -2,37 +2,39 @@
 
 .head{
 	text-align: center;
-	background-color:#ffffff;
+	font-size:50;
+	color:#45A29E;
 }
 
 body {
 	background-color: #BEBEBE;
 	font-family: "work Sans", sans-serif;
 	font-weight: 500;
-
+	background-image:url("../assets/pic1.jpg");
+	background-repeat: no-repeat;
 }
 
 .containermain{
 	text-align: center;
 	background-color: #EAEDED;
 	border:solid black;
-
 }
 
 .container{
 	width: 96%;
 	height: 70px;
-	padding:10px;
-	margin:20px;
-	background-color:black;
-	color:white;
+	padding-left:1%;
+	margin:0px;
+	font-size:20px;
+	color:#45A29E;
 	text-align: center;
 	list-style: none;
+
 
 }
 
 header{
-	background-color:#027B93;
+	background-color:#45A29E;
 }
 
 .navbar{
