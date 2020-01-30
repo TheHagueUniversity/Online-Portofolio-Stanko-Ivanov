@@ -1,8 +1,9 @@
 
 
-.head{
+.head1{
+	font-family: 'Bebas Neue', cursive;
 	text-align: center;
-	font-size:50;
+	font-size:40px;
 	color:#45A29E;
 }
 
@@ -16,11 +17,12 @@ body {
 
 .containermain{
 	text-align: center;
-	background-color: #EAEDED;
+	/*background-color: #EAEDED;*/
 	border:solid black;
 }
 
 .container{
+	font-family: 'Bebas Neue', cursive;
 	width: 96%;
 	height: 70px;
 	padding-left:1%;
@@ -31,6 +33,13 @@ body {
 	list-style: none;
 
 
+}
+
+section{
+	border-style:solid;
+	border-width:5px;
+	color:black;
+	font-family: 'Bebas Neue', cursive;
 }
 
 header{
