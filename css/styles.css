@@ -1,6 +1,11 @@
-
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
 
 .head1{
+	margin:50px;
 	font-family: 'Bebas Neue', cursive;
 	text-align: center;
 	font-size:40px;
@@ -46,25 +51,29 @@ header{
 	background-color:#45A29E;
 }
 
-.navbar{
-	height: 50px;
-	width: 100%;
-	margin:0 auto;
-	text-align: left;
-}
+/*.navbar{
+	display: flex;
+	align-items: center;
+	min-height: 7vh;
+	font-size:18px;
+	letter-spacing: 3px;
 
-nav ul{
+}*/
+
+.navbar{
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+	min-height: 8vh;
+	font-size:18px;
+	letter-spacing: 3px;
+	margin:-60px;
 	margin: 0;
 	padding:10;
 	list-style: none;
+
 }
 
-nav li{
-	display: inline-block;
-	margin-left: 250px;
-	padding-top: 10px;
-	position: relative;
-}
 
 nav a{
 	color:#252525;
@@ -73,5 +82,42 @@ nav a{
 }
 
 nav a:hover{
-	color:red;
+	color:#45A29E;
 }
+
+}
+article{
+	text-align: center;
+	font-size: 25px;
+	border:solid black;
+	margin:100px;
+
+
+}
+
+/*@media screen and (max-width: 657px){
+	body{font-size:50%;
+	
+	}
+}
+
+
+/*@media screen and (max-width: 768px){
+
+	.navbar{
+		width:20%;
+		/*
+		position: left;
+		right:0px;
+		height:92vh;
+		top:8vh;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%
+		transform: translateX(100%);*/
+
+	}
+}
+
+
