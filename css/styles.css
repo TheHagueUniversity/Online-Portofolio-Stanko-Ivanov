@@ -3,13 +3,16 @@
 	padding:0px;
 	box-sizing: border-box;
 }
+* {
+	box-sizing: border-box;
+  }
 
 body {	
 
 	font-family: "work Sans", sans-serif;
 	font-weight: 500;
 	background-image:url("../assets/pic1.jpg");
-	background-image:cover;
+	background-size:100% 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -18,7 +21,7 @@ body {
 nav{
 	width: 95%;
 	margin:0 auto;
-	list style:none;
+	list-style:none;
 }
 .navbar{
 	width:100%;
@@ -56,6 +59,23 @@ nav a:hover{
 	font-size:40px;
 	color:#45A29E;
 }
+.personal-info{
+	width: 95%;
+	margin:0 auto;
+	padding:100px;
+	justify-content: center;
+	font-family: 'Bebas Neue', cursive;
+	height: 50vh;
+	font-size:40px;
+	color:#45A29E;
+	list-style: none;
+
+}
+.my-info{
+	text-align: center;
+	padding: 50px;
+	color: black;
+}
 h1{
 	text-align: center;
 	font-size: 100px;
@@ -83,14 +103,14 @@ h2{
 	font-size: 30px;
 }
 
-
+.projects{
+	padding: 40px;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
 }
-
-
-
+	
+.works{
+	margin:5%;
+	padding-left:5%;
 }
-
-
-}
-
-
