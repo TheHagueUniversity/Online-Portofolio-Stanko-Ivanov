@@ -7,14 +7,18 @@
 	box-sizing: border-box;
   }
 
+html{
+	background:url(https://i.redd.it/zdarxtlshg611.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 body {	
 
 	font-family: "work Sans", sans-serif;
-	font-weight: 500;
-	background-image:url("../assets/pic1.jpg");
-	background-size:100% 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+	font-weight: 500;;
 }
 
 
@@ -38,7 +42,7 @@ nav{
 
 
 .navbar a{
-	color:#252525;
+	color:#fcfff9;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -74,7 +78,7 @@ nav a:hover{
 .my-info{
 	text-align: center;
 	padding: 50px;
-	color: black;
+	color:#f1f9ec;
 }
 h1{
 	text-align: center;
@@ -89,15 +93,16 @@ h2{
 
 
 .details{
-	position: relative;
-	left:480px;
+	position: absolute;
+	left:25%;
 	font-family: 'Montserrat', sans-serif;
 	width: 50%;
 	font-size: 24px;
+	color: #f1f9ec;
 
 }
 .about{ /* About */
-	padding: 40px;
+	padding: 30px;
 	text-align: center;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 30px;
@@ -109,8 +114,18 @@ h2{
 	font-family: 'Bebas Neue', cursive;
 	font-size: 30px;
 }
+.text{
+	position: absolute;
+	left:25%;
+	bottom: 450px;
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+	font-size: 24px;
+	color: #f1f9ec;
+}
 	
 .works{
 	margin:5%;
 	padding-left:5%;
 }
+
