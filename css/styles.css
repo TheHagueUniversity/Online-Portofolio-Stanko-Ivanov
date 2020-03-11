@@ -93,7 +93,8 @@ h2{
 
 
 .details{
-	position: absolute;
+	position: relative;
+	padding: 15px;
 	left:25%;
 	font-family: 'Montserrat', sans-serif;
 	width: 50%;
@@ -110,12 +111,12 @@ h2{
 
 .projects{
 	padding: 40px;
-	text-align: center;
+	text-align:bottom;
 	font-family: 'Bebas Neue', cursive;
 	font-size: 30px;
 }
 .text{
-	position: absolute;
+	position: relative;
 	left:25%;
 	bottom: 450px;
 	font-family: 'Montserrat', sans-serif;
@@ -129,3 +130,8 @@ h2{
 	padding-left:5%;
 }
 
+.title1{
+	position: relative;
+	bottom:200px;
+	left:50px;
+}
