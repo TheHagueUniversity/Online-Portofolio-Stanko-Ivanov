@@ -94,8 +94,7 @@ h2{
 
 .details{
 	position: relative;
-	padding: 15px;
-	left:25%;
+	left:482px;
 	font-family: 'Montserrat', sans-serif;
 	width: 50%;
 	font-size: 24px;
@@ -109,16 +108,9 @@ h2{
 	font-size: 30px;
 }
 
-.projects{
-	padding: 40px;
-	text-align:bottom;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 30px;
-}
 .text{
 	position: relative;
 	left:25%;
-	bottom: 450px;
 	font-family: 'Montserrat', sans-serif;
 	width: 50%;
 	font-size: 24px;
@@ -126,12 +118,23 @@ h2{
 }
 	
 .works{
-	margin:5%;
-	padding-left:5%;
+	position: relative;
+	top:60px;
+	left:280px;
+	display:grid;
+	grid-template-columns: repeat(4, 5fr);
+	grid-template-rows: 60px;
 }
 
 .title1{
 	position: relative;
-	bottom:200px;
-	left:50px;
+	top:80x;
+
+}
+
+.pbinfo{
+	position: relative;
+	width: 80%;
+	left:130px;
+
 }
