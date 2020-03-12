@@ -158,6 +158,19 @@ h2{
 	left:130px;
 }
 
+.dc-info{
+	text-align: center;
+	color: #f1f9ec;
+	position: relative;
+	width: 50%;
+	top:900px;
+	left:480px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+
+
+}
+
 .bespoke{
 	position: relative;
 	top:480px;
