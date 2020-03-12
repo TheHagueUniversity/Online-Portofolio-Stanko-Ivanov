@@ -101,6 +101,16 @@ h2{
 	color: #f1f9ec;
 
 }
+
+.details2{
+	padding-top: 440px;
+	text-align: center;
+	margin-left:460px;
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+	font-size: 24px;
+	color: #f1f9ec;
+}
 .about{ /* About */
 	padding: 30px;
 	text-align: center;
@@ -126,9 +136,9 @@ h2{
 	grid-template-rows: 60px;
 }
 
-.title1{
-	position: relative;
-	top:80x;
+.title-bootcamp{
+	color:#f1f9ec;
+	text-align: center;
 
 }
 
@@ -141,10 +151,11 @@ h2{
 }
 
 .title2{
+	padding-top:200px;
 	position: relative;
-	top:441px;
-	color:#f1f9ec;
-	left:12px;
+	color: #f1f9ec;
+	width:75%;
+	left:130px;
 }
 
 .bespoke{
