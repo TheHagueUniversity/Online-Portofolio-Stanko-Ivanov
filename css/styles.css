@@ -135,6 +135,8 @@ h2{
 	grid-template-columns: repeat(4, 5fr);
 	grid-template-rows: 60px;
 }
+
+
 .showcase{
 	color: #f1f9ec;
 	position: relative;
@@ -373,4 +375,28 @@ padding-left:4%;
 	position: relative;
 	top:200px;
 	color:#f1f9ec;
+}
+
+.text-explanation{
+	padding-top: 5%;
+	color:#f1f9ec;
+	padding-left: 4%;
+	width: 90%;
+	text-align: center;
+}
+.text-explanation p{
+	color:#fcfff9;
+	font-size: 19px;
+	padding-bottom: 1%;
+}
+
+.details3{
+
+	padding-top: 4%;
+	text-align: center;
+	margin-left:440px;
+	font-family: 'Montserrat', sans-serif;
+	width: 50%;
+	font-size: 21px;
+	color: #f1f9ec;
 }
