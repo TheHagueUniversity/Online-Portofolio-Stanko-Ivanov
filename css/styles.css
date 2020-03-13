@@ -66,7 +66,6 @@ nav a:hover{
 .personal-info{
 	width: 95%;
 	margin:0 auto;
-	padding:100px;
 	justify-content: center;
 	font-family: 'Bebas Neue', cursive;
 	height: 50vh;
@@ -99,11 +98,18 @@ h2{
 	width: 50%;
 	font-size: 24px;
 	color: #f1f9ec;
+	line-height: 40px;
 
 }
 
+.celcium{
+	padding-top: 3%;
+	margin-left:2%;
+	padding-bottom: 5%;
+}
+
 .details2{
-	padding-top: 440px;
+	padding-top: 3%;
 	text-align: center;
 	margin-left:460px;
 	font-family: 'Montserrat', sans-serif;
@@ -119,21 +125,34 @@ h2{
 }
 
 .text{
-	position: relative;
-	left:25%;
+	padding-left:5%;
+	margin-left:350px;
+	width: 60%;
+	margin-bottom:5%;
 	font-family: 'Montserrat', sans-serif;
-	width: 50%;
 	font-size: 18px;
 	color: #f1f9ec;
 }
-	
-.works{
-	position: relative;
-	top:60px;
-	left:280px;
-	display:grid;
-	grid-template-columns: repeat(4, 5fr);
-	grid-template-rows: 60px;
+
+.dc-showcase{
+	width: 80%;
+	padding-left:15%;
+	display:flex;
+	justify-content: space-between;
+	list-style: none;
+
+
+}
+
+.dc-showcase2{
+	width: 90%;
+	margin-left:5%;
+	padding:3%;
+	display:flex;
+	justify-content: space-between;
+	list-style: none;
+
+
 }
 
 
@@ -175,10 +194,9 @@ h2{
 .dc-info{
 	text-align: center;
 	color: #f1f9ec;
-	position: relative;
-	width: 50%;
-	top:900px;
-	left:480px;
+	padding-top:5%;
+	padding-left:475px;
+	width: 70%;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 
@@ -220,7 +238,7 @@ h3{
 	flex-direction: row;
 	margin-bottom: 100px;
 	margin-left:60px;
-	padding-top:90px;
+	
 
 }
 
@@ -240,7 +258,7 @@ h3{
 .project-item-right{
 	color: #fcfff9;
 	padding: 0 50px;
-	position: relative;
+	margin-top: 3%;
 ;
 }
 
@@ -386,12 +404,13 @@ padding-left:4%;
 }
 .text-explanation p{
 	color:#fcfff9;
-	font-size: 19px;
+	font-size: 24px;
 	padding-bottom: 1%;
+	padding-top: 1%;
+	;
 }
 
 .details3{
-
 	padding-top: 4%;
 	text-align: center;
 	margin-left:440px;
