@@ -135,10 +135,22 @@ h2{
 	grid-template-columns: repeat(4, 5fr);
 	grid-template-rows: 60px;
 }
+.showcase{
+	color: #f1f9ec;
+	position: relative;
+	left:800px;
+	font-family: 'Bellota', cursive;
+	font-size: 22px;
 
+
+	text-transform: uppercase;
+}
 .title-bootcamp{
 	color:#f1f9ec;
+	position: relative;
+	bottom:150px;
 	text-align: center;
+	
 
 }
 
@@ -146,7 +158,7 @@ h2{
 	position: relative;
 	width: 75%;
 	left:130px;
-	font-size:19px;
+	font-size:20px;
 
 }
 
@@ -283,4 +295,82 @@ h3{
 	position: relative;
 	left:60px;
 
+}
+.bespoke-content{
+	display:flex;
+}
+.right-obj{
+margin-top:6%;
+padding-left:4%;
+
+}
+
+.left-obj{
+	color:#fcfff9;
+	margin-top:4%;
+	padding-left:4%;
+}
+.project-description{
+	padding-right:10%;
+	font-size: 18px;
+	padding-bottom: 25px;
+}
+
+.cpt-description{
+	padding-right:10%;
+	font-size: 18px;	
+}
+
+.cpt-final{
+	width: 90%;
+	list-style:none;
+	padding-top:5%;
+	padding-left: 9%;
+	margin-left:55px;
+}
+.cpt-gallery{
+	width: 90%;
+	display:flex;
+	justify-content: space-between;
+	list-style: none;
+
+}
+
+.persona{
+	margin-top:10%;
+}
+
+.persona h2{
+	position: relative;
+	bottom: 25px;
+	color:#f1f9ec;
+	font-size: 45px;
+}
+
+.persona img{
+	position: relative;
+	left:440px
+}
+
+
+.research-tech{
+	width: 97%;
+	color:#f1f9ec;
+	margin-top:150px;
+	display:flex;
+}
+
+
+.research-tech img{
+	margin-top:80px;
+	margin-left:39%;
+	padding: 1%;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.tittle-bespoke-kms{
+	position: relative;
+	top:200px;
+	color:#f1f9ec;
 }
