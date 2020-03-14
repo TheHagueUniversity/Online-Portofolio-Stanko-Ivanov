@@ -405,7 +405,7 @@ padding-left:4%;
 	margin-left:55px;
 }
 .cpt-gallery{
-	width: 90%;
+	width: 100%;
 	display:flex;
 	justify-content: space-between;
 	list-style: none;
