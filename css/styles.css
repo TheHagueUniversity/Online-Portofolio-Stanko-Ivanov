@@ -227,6 +227,15 @@ h3{
 	font-family: 'Bebas Neue', cursive;
 	
 }
+.hardskill1{
+	padding-bottom: 5%;
+}
+
+.soft-hard{
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+}
 
 .project-wrapper{
 	width: 93%;
